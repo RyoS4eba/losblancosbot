@@ -1,5 +1,5 @@
 const Discord = require('discord.js');
-const bot = new Discord.Client();
+var bot = new Discord.Client();
 
 var prefix = ("*")
 
@@ -23,3 +23,5 @@ bot.on('message', message => {
     console.log("Commande effectuée !");
   }
 });
+
+bot.login("vRnQWwQ0u7JxeO6eGJqsf0jkLRGzmtLZ");
