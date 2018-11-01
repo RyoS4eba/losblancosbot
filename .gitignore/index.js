@@ -8,6 +8,8 @@ bot.on('ready', function() {
   console.log("Connected");
 });
 
+bot.login("vRnQWwQ0u7JxeO6eGJqsf0jkLRGzmtLZ");
+
 bot.on('message', message => {
   if (message.content == prefix + "help"){
     message.channel.sendMessage("Liste des commandes: \n !création \n !créateur");
@@ -23,5 +25,3 @@ bot.on('message', message => {
     console.log("Commande effectuée !");
   }
 });
-
-bot.login("vRnQWwQ0u7JxeO6eGJqsf0jkLRGzmtLZ");
